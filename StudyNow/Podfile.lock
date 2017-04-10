@@ -1,0 +1,15 @@
+PODS:
+  - Backendless-ios-SDK (3.0.41)
+  - SinchRTC (3.9.7)
+
+DEPENDENCIES:
+  - Backendless-ios-SDK
+  - SinchRTC
+
+SPEC CHECKSUMS:
+  Backendless-ios-SDK: f651996f5c7a85ee227ac88490598c8e41d2747a
+  SinchRTC: f77b1f6edd17b35af0f6f372be0d907e3bdc1fb9
+
+PODFILE CHECKSUM: efe5ef2f8cc186271a1a09d5e4f65c53fd00cfd9
+
+COCOAPODS: 1.0.1

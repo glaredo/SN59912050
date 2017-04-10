@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  StudyNow
+
+  Created by Rajesh Mehta on 10/4/16.
+  Copyright © 2016 StudyNow. All rights reserved.
+*/
+
+SIN_INCOMING_IM_DISPLAY_NAME = "%@";

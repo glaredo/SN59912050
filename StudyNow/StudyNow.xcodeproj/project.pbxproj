@@ -1,0 +1,813 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		381606A51E39862000AE0DD7 /* ImageViewOverlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 381606A31E39862000AE0DD7 /* ImageViewOverlayController.m */; };
+		381606A61E39862000AE0DD7 /* ImageViewOverlayController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 381606A41E39862000AE0DD7 /* ImageViewOverlayController.xib */; };
+		3826CBFE1CFFDE8D00A840A8 /* MyLocationTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3826CBFD1CFFDE8D00A840A8 /* MyLocationTracker.m */; };
+		3826CC011CFFE0DC00A840A8 /* DeviceUserMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 3826CC001CFFE0DC00A840A8 /* DeviceUserMap.m */; };
+		3826CC071CFFE72E00A840A8 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3826CC061CFFE72E00A840A8 /* ChatViewController.m */; };
+		3826CC0A1CFFE74E00A840A8 /* CustomTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3826CC091CFFE74E00A840A8 /* CustomTextView.m */; };
+		3829B7F01CE20AE900F21B41 /* InputScheduleViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3829B7EF1CE20AE900F21B41 /* InputScheduleViewCell.m */; };
+		3829B7F31CE20B3000F21B41 /* ShowClassesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3829B7F21CE20B3000F21B41 /* ShowClassesViewController.m */; };
+		3829B7F61CE21D7000F21B41 /* MyClasses.m in Sources */ = {isa = PBXBuildFile; fileRef = 3829B7F51CE21D7000F21B41 /* MyClasses.m */; };
+		3829B8001CE3F80700F21B41 /* HomeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3829B7FF1CE3F80700F21B41 /* HomeListViewController.m */; };
+		3829B8071CE435C500F21B41 /* BaseTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3829B8061CE435C500F21B41 /* BaseTabViewController.m */; };
+		3829B80A1CE49B3300F21B41 /* ChatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3829B8091CE49B3300F21B41 /* ChatsViewController.m */; };
+		3829B80D1CE49B4B00F21B41 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3829B80C1CE49B4B00F21B41 /* ProfileViewController.m */; };
+		3829B8101CE4AC3000F21B41 /* drcolorpicker-color-bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3829B80E1CE4AC3000F21B41 /* drcolorpicker-color-bar.png */; };
+		3829B8111CE4AC3000F21B41 /* drcolorpicker-color-bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3829B80F1CE4AC3000F21B41 /* drcolorpicker-color-bar@2x.png */; };
+		3829B8141CE4ACCB00F21B41 /* drcolorpicker-brightnessguide.png in Resources */ = {isa = PBXBuildFile; fileRef = 3829B8121CE4ACCB00F21B41 /* drcolorpicker-brightnessguide.png */; };
+		3829B8151CE4ACCB00F21B41 /* drcolorpicker-brightnessguide@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3829B8131CE4ACCB00F21B41 /* drcolorpicker-brightnessguide@2x.png */; };
+		3829B8191CE544DB00F21B41 /* StudentDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 3829B8181CE544DB00F21B41 /* StudentDetail.m */; };
+		3829B81C1CE5795400F21B41 /* Subject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3829B81B1CE5795400F21B41 /* Subject.m */; };
+		3829B81F1CE60B1F00F21B41 /* UserListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3829B81E1CE60B1F00F21B41 /* UserListViewCell.m */; };
+		3829B8221CE6DBE400F21B41 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3829B8211CE6DBE400F21B41 /* SettingsViewController.m */; };
+		3829B8391CED6AEB00F21B41 /* Check_64.png in Resources */ = {isa = PBXBuildFile; fileRef = 3829B8381CED6AEB00F21B41 /* Check_64.png */; };
+		383512751DA497AF009894D4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 383512771DA497AF009894D4 /* Localizable.strings */; };
+		3835127B1DA4A841009894D4 /* CreateGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3835127A1DA4A841009894D4 /* CreateGroupViewController.m */; };
+		3835127E1DA5E421009894D4 /* GroupChat.m in Sources */ = {isa = PBXBuildFile; fileRef = 3835127D1DA5E421009894D4 /* GroupChat.m */; };
+		383512811DA5F835009894D4 /* UIImage+Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = 383512801DA5F835009894D4 /* UIImage+Scale.m */; };
+		383512841DA669A9009894D4 /* GroupListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 383512831DA669A9009894D4 /* GroupListViewCell.m */; };
+		383512871DA7452D009894D4 /* UIImageView+Networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 383512861DA7452D009894D4 /* UIImageView+Networking.m */; };
+		3835128A1DA74A3B009894D4 /* GroupChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 383512891DA74A3B009894D4 /* GroupChatViewController.m */; };
+		3835128D1DA7CCEE009894D4 /* GroupChatMessages.m in Sources */ = {isa = PBXBuildFile; fileRef = 3835128C1DA7CCEE009894D4 /* GroupChatMessages.m */; };
+		385DB8CA1DB85648002BD5D9 /* SubjectColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 385DB8C91DB85648002BD5D9 /* SubjectColorView.m */; };
+		3864D3931D6179B0004EF9C1 /* Icon-167.png in Resources */ = {isa = PBXBuildFile; fileRef = 3864D3921D6179B0004EF9C1 /* Icon-167.png */; };
+		3885DD9E1E0E3D5300759FF0 /* GroupDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3885DD9D1E0E3D5300759FF0 /* GroupDetailViewController.m */; };
+		388E98411CFE0176000A57C2 /* MessageListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 388E98401CFE0176000A57C2 /* MessageListViewCell.m */; };
+		388E98441CFE018D000A57C2 /* ChatFriendViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 388E98431CFE018D000A57C2 /* ChatFriendViewCell.m */; };
+		388E98471CFE01B0000A57C2 /* LastChat.m in Sources */ = {isa = PBXBuildFile; fileRef = 388E98461CFE01B0000A57C2 /* LastChat.m */; };
+		388E984A1CFE01BB000A57C2 /* ChatData.m in Sources */ = {isa = PBXBuildFile; fileRef = 388E98491CFE01BB000A57C2 /* ChatData.m */; };
+		38A3AE0C1CC45134006D5FE2 /* StartupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A3AE0B1CC45134006D5FE2 /* StartupViewController.m */; };
+		38A3AE0F1CC45146006D5FE2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A3AE0E1CC45146006D5FE2 /* MainViewController.m */; };
+		38A3AE121CC46320006D5FE2 /* GeneralHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A3AE111CC46320006D5FE2 /* GeneralHelper.m */; };
+		38A3AE151CC4648D006D5FE2 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A3AE141CC4648D006D5FE2 /* LoginViewController.m */; };
+		38A3AE181CC49196006D5FE2 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A3AE171CC49196006D5FE2 /* SignUpViewController.m */; };
+		38A3AE1B1CC4F990006D5FE2 /* InputScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A3AE1A1CC4F990006D5FE2 /* InputScheduleViewController.m */; };
+		38A3AE1E1CC4F9B4006D5FE2 /* Study.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38A3AE1C1CC4F9B4006D5FE2 /* Study.storyboard */; };
+		38A3AE211CC54D22006D5FE2 /* BackendHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A3AE201CC54D22006D5FE2 /* BackendHelper.m */; };
+		38A3AE251CC54D5E006D5FE2 /* UserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A3AE241CC54D5E006D5FE2 /* UserData.m */; };
+		38A3AE291CC54EE4006D5FE2 /* ImageCacheHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A3AE281CC54EE4006D5FE2 /* ImageCacheHelper.m */; };
+		38A3AE2C1CC646BB006D5FE2 /* Schools.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A3AE2B1CC646BB006D5FE2 /* Schools.m */; };
+		38A3AE2F1CC71D19006D5FE2 /* SelectSchoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A3AE2E1CC71D19006D5FE2 /* SelectSchoolViewController.m */; };
+		38A3AE311CC71E88006D5FE2 /* grayline.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A3AE301CC71E88006D5FE2 /* grayline.png */; };
+		38A3AE351CC72BB6006D5FE2 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A3AE341CC72BB6006D5FE2 /* MBProgressHUD.m */; };
+		38A3AE381CC72DF4006D5FE2 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A3AE371CC72DF4006D5FE2 /* Student.m */; };
+		38DC815F1D13B63200DD8D8F /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38DC815E1D13B63200DD8D8F /* SafariServices.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		38E664731CD3FB7F00E330C6 /* ForgotPwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E664721CD3FB7F00E330C6 /* ForgotPwdViewController.m */; };
+		38E862B41CC16E01002976A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E862B31CC16E01002976A4 /* main.m */; };
+		38E862B71CC16E01002976A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E862B61CC16E01002976A4 /* AppDelegate.m */; };
+		38E862BA1CC16E01002976A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E862B91CC16E01002976A4 /* ViewController.m */; };
+		38E862BD1CC16E01002976A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E862BB1CC16E01002976A4 /* Main.storyboard */; };
+		38E862C01CC16E01002976A4 /* StudyNow.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38E862BE1CC16E01002976A4 /* StudyNow.xcdatamodeld */; };
+		38E862C21CC16E01002976A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38E862C11CC16E01002976A4 /* Assets.xcassets */; };
+		38E862C51CC16E01002976A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E862C31CC16E01002976A4 /* LaunchScreen.storyboard */; };
+		BEDDAB573D752482AF628230 /* libPods-StudyNow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 943965EE08B757448EF2A8EA /* libPods-StudyNow.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		381606A21E39862000AE0DD7 /* ImageViewOverlayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewOverlayController.h; sourceTree = "<group>"; };
+		381606A31E39862000AE0DD7 /* ImageViewOverlayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewOverlayController.m; sourceTree = "<group>"; };
+		381606A41E39862000AE0DD7 /* ImageViewOverlayController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageViewOverlayController.xib; sourceTree = "<group>"; };
+		3826CBFC1CFFDE8D00A840A8 /* MyLocationTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLocationTracker.h; sourceTree = "<group>"; };
+		3826CBFD1CFFDE8D00A840A8 /* MyLocationTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLocationTracker.m; sourceTree = "<group>"; };
+		3826CBFF1CFFE0DC00A840A8 /* DeviceUserMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceUserMap.h; sourceTree = "<group>"; };
+		3826CC001CFFE0DC00A840A8 /* DeviceUserMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceUserMap.m; sourceTree = "<group>"; };
+		3826CC051CFFE72E00A840A8 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		3826CC061CFFE72E00A840A8 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		3826CC081CFFE74E00A840A8 /* CustomTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTextView.h; sourceTree = "<group>"; };
+		3826CC091CFFE74E00A840A8 /* CustomTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTextView.m; sourceTree = "<group>"; };
+		3829B7EE1CE20AE900F21B41 /* InputScheduleViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InputScheduleViewCell.h; path = Viewcontroller/ViewCell/InputScheduleViewCell.h; sourceTree = "<group>"; };
+		3829B7EF1CE20AE900F21B41 /* InputScheduleViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InputScheduleViewCell.m; path = Viewcontroller/ViewCell/InputScheduleViewCell.m; sourceTree = "<group>"; };
+		3829B7F11CE20B3000F21B41 /* ShowClassesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShowClassesViewController.h; path = Viewcontroller/ShowClassesViewController.h; sourceTree = "<group>"; };
+		3829B7F21CE20B3000F21B41 /* ShowClassesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShowClassesViewController.m; path = Viewcontroller/ShowClassesViewController.m; sourceTree = "<group>"; };
+		3829B7F41CE21D7000F21B41 /* MyClasses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyClasses.h; path = DataObjects/MyClasses.h; sourceTree = "<group>"; };
+		3829B7F51CE21D7000F21B41 /* MyClasses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyClasses.m; path = DataObjects/MyClasses.m; sourceTree = "<group>"; };
+		3829B7FE1CE3F80700F21B41 /* HomeListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeListViewController.h; path = Viewcontroller/HomeListViewController.h; sourceTree = "<group>"; };
+		3829B7FF1CE3F80700F21B41 /* HomeListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeListViewController.m; path = Viewcontroller/HomeListViewController.m; sourceTree = "<group>"; };
+		3829B8051CE435C500F21B41 /* BaseTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseTabViewController.h; path = Viewcontroller/BaseTabViewController.h; sourceTree = "<group>"; };
+		3829B8061CE435C500F21B41 /* BaseTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseTabViewController.m; path = Viewcontroller/BaseTabViewController.m; sourceTree = "<group>"; };
+		3829B8081CE49B3300F21B41 /* ChatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChatsViewController.h; path = Viewcontroller/ChatsViewController.h; sourceTree = "<group>"; };
+		3829B8091CE49B3300F21B41 /* ChatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChatsViewController.m; path = Viewcontroller/ChatsViewController.m; sourceTree = "<group>"; };
+		3829B80B1CE49B4B00F21B41 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfileViewController.h; path = Viewcontroller/ProfileViewController.h; sourceTree = "<group>"; };
+		3829B80C1CE49B4B00F21B41 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfileViewController.m; path = Viewcontroller/ProfileViewController.m; sourceTree = "<group>"; };
+		3829B80E1CE4AC3000F21B41 /* drcolorpicker-color-bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "drcolorpicker-color-bar.png"; sourceTree = "<group>"; };
+		3829B80F1CE4AC3000F21B41 /* drcolorpicker-color-bar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "drcolorpicker-color-bar@2x.png"; sourceTree = "<group>"; };
+		3829B8121CE4ACCB00F21B41 /* drcolorpicker-brightnessguide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "drcolorpicker-brightnessguide.png"; sourceTree = "<group>"; };
+		3829B8131CE4ACCB00F21B41 /* drcolorpicker-brightnessguide@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "drcolorpicker-brightnessguide@2x.png"; sourceTree = "<group>"; };
+		3829B8171CE544DB00F21B41 /* StudentDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StudentDetail.h; path = DataObjects/StudentDetail.h; sourceTree = "<group>"; };
+		3829B8181CE544DB00F21B41 /* StudentDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StudentDetail.m; path = DataObjects/StudentDetail.m; sourceTree = "<group>"; };
+		3829B81A1CE5795400F21B41 /* Subject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Subject.h; path = DataObjects/Subject.h; sourceTree = "<group>"; };
+		3829B81B1CE5795400F21B41 /* Subject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Subject.m; path = DataObjects/Subject.m; sourceTree = "<group>"; };
+		3829B81D1CE60B1F00F21B41 /* UserListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserListViewCell.h; path = Viewcontroller/ViewCell/UserListViewCell.h; sourceTree = "<group>"; };
+		3829B81E1CE60B1F00F21B41 /* UserListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserListViewCell.m; path = Viewcontroller/ViewCell/UserListViewCell.m; sourceTree = "<group>"; };
+		3829B8201CE6DBE400F21B41 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = Viewcontroller/SettingsViewController.h; sourceTree = "<group>"; };
+		3829B8211CE6DBE400F21B41 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = Viewcontroller/SettingsViewController.m; sourceTree = "<group>"; };
+		3829B8381CED6AEB00F21B41 /* Check_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Check_64.png; sourceTree = "<group>"; };
+		383512721DA48F5E009894D4 /* StudyNow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StudyNow.entitlements; sourceTree = "<group>"; };
+		383512761DA497AF009894D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		383512781DA497EA009894D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		383512791DA4A841009894D4 /* CreateGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreateGroupViewController.h; path = Viewcontroller/CreateGroupViewController.h; sourceTree = "<group>"; };
+		3835127A1DA4A841009894D4 /* CreateGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreateGroupViewController.m; path = Viewcontroller/CreateGroupViewController.m; sourceTree = "<group>"; };
+		3835127C1DA5E421009894D4 /* GroupChat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GroupChat.h; path = DataObjects/GroupChat.h; sourceTree = "<group>"; };
+		3835127D1DA5E421009894D4 /* GroupChat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GroupChat.m; path = DataObjects/GroupChat.m; sourceTree = "<group>"; };
+		3835127F1DA5F835009894D4 /* UIImage+Scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Scale.h"; sourceTree = "<group>"; };
+		383512801DA5F835009894D4 /* UIImage+Scale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Scale.m"; sourceTree = "<group>"; };
+		383512821DA669A9009894D4 /* GroupListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GroupListViewCell.h; path = Viewcontroller/ViewCell/GroupListViewCell.h; sourceTree = "<group>"; };
+		383512831DA669A9009894D4 /* GroupListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GroupListViewCell.m; path = Viewcontroller/ViewCell/GroupListViewCell.m; sourceTree = "<group>"; };
+		383512851DA7452D009894D4 /* UIImageView+Networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Networking.h"; sourceTree = "<group>"; };
+		383512861DA7452D009894D4 /* UIImageView+Networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Networking.m"; sourceTree = "<group>"; };
+		383512881DA74A3B009894D4 /* GroupChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GroupChatViewController.h; path = Viewcontroller/GroupChatViewController.h; sourceTree = "<group>"; };
+		383512891DA74A3B009894D4 /* GroupChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GroupChatViewController.m; path = Viewcontroller/GroupChatViewController.m; sourceTree = "<group>"; };
+		3835128B1DA7CCEE009894D4 /* GroupChatMessages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GroupChatMessages.h; path = DataObjects/GroupChatMessages.h; sourceTree = "<group>"; };
+		3835128C1DA7CCEE009894D4 /* GroupChatMessages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GroupChatMessages.m; path = DataObjects/GroupChatMessages.m; sourceTree = "<group>"; };
+		385DB8C81DB85648002BD5D9 /* SubjectColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubjectColorView.h; path = Helper/SubjectColorView.h; sourceTree = "<group>"; };
+		385DB8C91DB85648002BD5D9 /* SubjectColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SubjectColorView.m; path = Helper/SubjectColorView.m; sourceTree = "<group>"; };
+		3864D3921D6179B0004EF9C1 /* Icon-167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-167.png"; sourceTree = "<group>"; };
+		3885DD9C1E0E3D5300759FF0 /* GroupDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GroupDetailViewController.h; path = Viewcontroller/GroupDetailViewController.h; sourceTree = "<group>"; };
+		3885DD9D1E0E3D5300759FF0 /* GroupDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GroupDetailViewController.m; path = Viewcontroller/GroupDetailViewController.m; sourceTree = "<group>"; };
+		388E983F1CFE0176000A57C2 /* MessageListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageListViewCell.h; sourceTree = "<group>"; };
+		388E98401CFE0176000A57C2 /* MessageListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageListViewCell.m; sourceTree = "<group>"; };
+		388E98421CFE018D000A57C2 /* ChatFriendViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatFriendViewCell.h; sourceTree = "<group>"; };
+		388E98431CFE018D000A57C2 /* ChatFriendViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatFriendViewCell.m; sourceTree = "<group>"; };
+		388E98451CFE01B0000A57C2 /* LastChat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LastChat.h; sourceTree = "<group>"; };
+		388E98461CFE01B0000A57C2 /* LastChat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LastChat.m; sourceTree = "<group>"; };
+		388E98481CFE01BB000A57C2 /* ChatData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatData.h; sourceTree = "<group>"; };
+		388E98491CFE01BB000A57C2 /* ChatData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatData.m; sourceTree = "<group>"; };
+		38A3AE0A1CC45134006D5FE2 /* StartupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StartupViewController.h; path = Viewcontroller/StartupViewController.h; sourceTree = "<group>"; };
+		38A3AE0B1CC45134006D5FE2 /* StartupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StartupViewController.m; path = Viewcontroller/StartupViewController.m; sourceTree = "<group>"; };
+		38A3AE0D1CC45146006D5FE2 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Viewcontroller/MainViewController.h; sourceTree = "<group>"; };
+		38A3AE0E1CC45146006D5FE2 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Viewcontroller/MainViewController.m; sourceTree = "<group>"; };
+		38A3AE101CC46320006D5FE2 /* GeneralHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeneralHelper.h; path = Helper/GeneralHelper.h; sourceTree = "<group>"; };
+		38A3AE111CC46320006D5FE2 /* GeneralHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GeneralHelper.m; path = Helper/GeneralHelper.m; sourceTree = "<group>"; };
+		38A3AE131CC4648D006D5FE2 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = Viewcontroller/LoginViewController.h; sourceTree = "<group>"; };
+		38A3AE141CC4648D006D5FE2 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = Viewcontroller/LoginViewController.m; sourceTree = "<group>"; };
+		38A3AE161CC49196006D5FE2 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignUpViewController.h; path = Viewcontroller/SignUpViewController.h; sourceTree = "<group>"; };
+		38A3AE171CC49196006D5FE2 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignUpViewController.m; path = Viewcontroller/SignUpViewController.m; sourceTree = "<group>"; };
+		38A3AE191CC4F990006D5FE2 /* InputScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InputScheduleViewController.h; path = Viewcontroller/InputScheduleViewController.h; sourceTree = "<group>"; };
+		38A3AE1A1CC4F990006D5FE2 /* InputScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InputScheduleViewController.m; path = Viewcontroller/InputScheduleViewController.m; sourceTree = "<group>"; };
+		38A3AE1D1CC4F9B4006D5FE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Study.storyboard; sourceTree = "<group>"; };
+		38A3AE1F1CC54D22006D5FE2 /* BackendHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BackendHelper.h; path = Helper/BackendHelper.h; sourceTree = "<group>"; };
+		38A3AE201CC54D22006D5FE2 /* BackendHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BackendHelper.m; path = Helper/BackendHelper.m; sourceTree = "<group>"; };
+		38A3AE231CC54D5E006D5FE2 /* UserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserData.h; path = DataObjects/UserData.h; sourceTree = "<group>"; };
+		38A3AE241CC54D5E006D5FE2 /* UserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserData.m; path = DataObjects/UserData.m; sourceTree = "<group>"; };
+		38A3AE261CC54DB8006D5FE2 /* MyAppConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAppConstants.h; sourceTree = "<group>"; };
+		38A3AE271CC54EE4006D5FE2 /* ImageCacheHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCacheHelper.h; sourceTree = "<group>"; };
+		38A3AE281CC54EE4006D5FE2 /* ImageCacheHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCacheHelper.m; sourceTree = "<group>"; };
+		38A3AE2A1CC646BB006D5FE2 /* Schools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Schools.h; path = DataObjects/Schools.h; sourceTree = "<group>"; };
+		38A3AE2B1CC646BB006D5FE2 /* Schools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Schools.m; path = DataObjects/Schools.m; sourceTree = "<group>"; };
+		38A3AE2D1CC71D19006D5FE2 /* SelectSchoolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectSchoolViewController.h; path = Viewcontroller/SelectSchoolViewController.h; sourceTree = "<group>"; };
+		38A3AE2E1CC71D19006D5FE2 /* SelectSchoolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectSchoolViewController.m; path = Viewcontroller/SelectSchoolViewController.m; sourceTree = "<group>"; };
+		38A3AE301CC71E88006D5FE2 /* grayline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayline.png; sourceTree = "<group>"; };
+		38A3AE331CC72BB6006D5FE2 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		38A3AE341CC72BB6006D5FE2 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		38A3AE361CC72DF4006D5FE2 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Student.h; path = DataObjects/Student.h; sourceTree = "<group>"; };
+		38A3AE371CC72DF4006D5FE2 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Student.m; path = DataObjects/Student.m; sourceTree = "<group>"; };
+		38DC815E1D13B63200DD8D8F /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		38E664711CD3FB7F00E330C6 /* ForgotPwdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ForgotPwdViewController.h; path = Viewcontroller/ForgotPwdViewController.h; sourceTree = "<group>"; };
+		38E664721CD3FB7F00E330C6 /* ForgotPwdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ForgotPwdViewController.m; path = Viewcontroller/ForgotPwdViewController.m; sourceTree = "<group>"; };
+		38E862AF1CC16E01002976A4 /* StudyNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E862B31CC16E01002976A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38E862B51CC16E01002976A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		38E862B61CC16E01002976A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		38E862B81CC16E01002976A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		38E862B91CC16E01002976A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		38E862BC1CC16E01002976A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38E862BF1CC16E01002976A4 /* StudyNow.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StudyNow.xcdatamodel; sourceTree = "<group>"; };
+		38E862C11CC16E01002976A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38E862C41CC16E01002976A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38E862C61CC16E01002976A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		943965EE08B757448EF2A8EA /* libPods-StudyNow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StudyNow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B013561F378B1DCACE6B1CF9 /* Pods-StudyNow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyNow.release.xcconfig"; path = "Pods/Target Support Files/Pods-StudyNow/Pods-StudyNow.release.xcconfig"; sourceTree = "<group>"; };
+		D3C40D39B00D887364469255 /* Pods-StudyNow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyNow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StudyNow/Pods-StudyNow.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38E862AC1CC16E01002976A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38DC815F1D13B63200DD8D8F /* SafariServices.framework in Frameworks */,
+				BEDDAB573D752482AF628230 /* libPods-StudyNow.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00A132A7D0841930D59755EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3C40D39B00D887364469255 /* Pods-StudyNow.debug.xcconfig */,
+				B013561F378B1DCACE6B1CF9 /* Pods-StudyNow.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3829B7ED1CE20ACA00F21B41 /* ViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				388E98421CFE018D000A57C2 /* ChatFriendViewCell.h */,
+				388E98431CFE018D000A57C2 /* ChatFriendViewCell.m */,
+				388E983F1CFE0176000A57C2 /* MessageListViewCell.h */,
+				388E98401CFE0176000A57C2 /* MessageListViewCell.m */,
+				3829B7EE1CE20AE900F21B41 /* InputScheduleViewCell.h */,
+				3829B7EF1CE20AE900F21B41 /* InputScheduleViewCell.m */,
+				3829B81D1CE60B1F00F21B41 /* UserListViewCell.h */,
+				3829B81E1CE60B1F00F21B41 /* UserListViewCell.m */,
+				383512821DA669A9009894D4 /* GroupListViewCell.h */,
+				383512831DA669A9009894D4 /* GroupListViewCell.m */,
+			);
+			name = ViewCell;
+			sourceTree = "<group>";
+		};
+		3829B7FD1CE3F7E100F21B41 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				3829B7FE1CE3F80700F21B41 /* HomeListViewController.h */,
+				3829B7FF1CE3F80700F21B41 /* HomeListViewController.m */,
+				3829B8051CE435C500F21B41 /* BaseTabViewController.h */,
+				3829B8061CE435C500F21B41 /* BaseTabViewController.m */,
+				3829B8081CE49B3300F21B41 /* ChatsViewController.h */,
+				3829B8091CE49B3300F21B41 /* ChatsViewController.m */,
+				3826CC051CFFE72E00A840A8 /* ChatViewController.h */,
+				3826CC061CFFE72E00A840A8 /* ChatViewController.m */,
+				3829B80B1CE49B4B00F21B41 /* ProfileViewController.h */,
+				3829B80C1CE49B4B00F21B41 /* ProfileViewController.m */,
+				3829B8201CE6DBE400F21B41 /* SettingsViewController.h */,
+				3829B8211CE6DBE400F21B41 /* SettingsViewController.m */,
+				383512791DA4A841009894D4 /* CreateGroupViewController.h */,
+				3835127A1DA4A841009894D4 /* CreateGroupViewController.m */,
+				383512881DA74A3B009894D4 /* GroupChatViewController.h */,
+				383512891DA74A3B009894D4 /* GroupChatViewController.m */,
+				3885DD9C1E0E3D5300759FF0 /* GroupDetailViewController.h */,
+				3885DD9D1E0E3D5300759FF0 /* GroupDetailViewController.m */,
+			);
+			name = Tabs;
+			sourceTree = "<group>";
+		};
+		3829B8161CE544AC00F21B41 /* Junk */ = {
+			isa = PBXGroup;
+			children = (
+				38A3AE361CC72DF4006D5FE2 /* Student.h */,
+				38A3AE371CC72DF4006D5FE2 /* Student.m */,
+			);
+			name = Junk;
+			sourceTree = "<group>";
+		};
+		38A3AE221CC54D3F006D5FE2 /* DataObjects */ = {
+			isa = PBXGroup;
+			children = (
+				38A3AE231CC54D5E006D5FE2 /* UserData.h */,
+				38A3AE241CC54D5E006D5FE2 /* UserData.m */,
+				3826CBFF1CFFE0DC00A840A8 /* DeviceUserMap.h */,
+				3826CC001CFFE0DC00A840A8 /* DeviceUserMap.m */,
+				38A3AE2A1CC646BB006D5FE2 /* Schools.h */,
+				38A3AE2B1CC646BB006D5FE2 /* Schools.m */,
+				3829B7F41CE21D7000F21B41 /* MyClasses.h */,
+				3829B7F51CE21D7000F21B41 /* MyClasses.m */,
+				3829B8171CE544DB00F21B41 /* StudentDetail.h */,
+				3829B8181CE544DB00F21B41 /* StudentDetail.m */,
+				388E98451CFE01B0000A57C2 /* LastChat.h */,
+				388E98461CFE01B0000A57C2 /* LastChat.m */,
+				388E98481CFE01BB000A57C2 /* ChatData.h */,
+				388E98491CFE01BB000A57C2 /* ChatData.m */,
+				3829B81A1CE5795400F21B41 /* Subject.h */,
+				3829B81B1CE5795400F21B41 /* Subject.m */,
+				3835127C1DA5E421009894D4 /* GroupChat.h */,
+				3835127D1DA5E421009894D4 /* GroupChat.m */,
+				3835128B1DA7CCEE009894D4 /* GroupChatMessages.h */,
+				3835128C1DA7CCEE009894D4 /* GroupChatMessages.m */,
+			);
+			name = DataObjects;
+			sourceTree = "<group>";
+		};
+		38A3AE321CC72BA4006D5FE2 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				38A3AE331CC72BB6006D5FE2 /* MBProgressHUD.h */,
+				38A3AE341CC72BB6006D5FE2 /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		38E862A61CC16E01002976A4 = {
+			isa = PBXGroup;
+			children = (
+				38E862B11CC16E01002976A4 /* StudyNow */,
+				38E862B01CC16E01002976A4 /* Products */,
+				00A132A7D0841930D59755EB /* Pods */,
+				95E7D75ECDC8F15371A08161 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		38E862B01CC16E01002976A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38E862AF1CC16E01002976A4 /* StudyNow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38E862B11CC16E01002976A4 /* StudyNow */ = {
+			isa = PBXGroup;
+			children = (
+				383512721DA48F5E009894D4 /* StudyNow.entitlements */,
+				38E862CC1CC16E20002976A4 /* Third Party */,
+				38A3AE221CC54D3F006D5FE2 /* DataObjects */,
+				38E862CE1CC16E35002976A4 /* Helper */,
+				38E862CD1CC16E29002976A4 /* ViewController */,
+				38E862B51CC16E01002976A4 /* AppDelegate.h */,
+				38E862B61CC16E01002976A4 /* AppDelegate.m */,
+				38E862B81CC16E01002976A4 /* ViewController.h */,
+				38E862B91CC16E01002976A4 /* ViewController.m */,
+				38A3AE1C1CC4F9B4006D5FE2 /* Study.storyboard */,
+				38E862BB1CC16E01002976A4 /* Main.storyboard */,
+				38E862C11CC16E01002976A4 /* Assets.xcassets */,
+				38E862C31CC16E01002976A4 /* LaunchScreen.storyboard */,
+				38E862C61CC16E01002976A4 /* Info.plist */,
+				383512771DA497AF009894D4 /* Localizable.strings */,
+				38E862BE1CC16E01002976A4 /* StudyNow.xcdatamodeld */,
+				38E862B21CC16E01002976A4 /* Supporting Files */,
+			);
+			path = StudyNow;
+			sourceTree = "<group>";
+		};
+		38E862B21CC16E01002976A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3864D3921D6179B0004EF9C1 /* Icon-167.png */,
+				3829B8381CED6AEB00F21B41 /* Check_64.png */,
+				3829B8121CE4ACCB00F21B41 /* drcolorpicker-brightnessguide.png */,
+				3829B8131CE4ACCB00F21B41 /* drcolorpicker-brightnessguide@2x.png */,
+				3829B80E1CE4AC3000F21B41 /* drcolorpicker-color-bar.png */,
+				3829B80F1CE4AC3000F21B41 /* drcolorpicker-color-bar@2x.png */,
+				38A3AE301CC71E88006D5FE2 /* grayline.png */,
+				38E862B31CC16E01002976A4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38E862CC1CC16E20002976A4 /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				3829B8161CE544AC00F21B41 /* Junk */,
+				38A3AE321CC72BA4006D5FE2 /* MBProgressHUD */,
+			);
+			name = "Third Party";
+			sourceTree = "<group>";
+		};
+		38E862CD1CC16E29002976A4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3829B7ED1CE20ACA00F21B41 /* ViewCell */,
+				3829B7FD1CE3F7E100F21B41 /* Tabs */,
+				38A3AE0A1CC45134006D5FE2 /* StartupViewController.h */,
+				38A3AE0B1CC45134006D5FE2 /* StartupViewController.m */,
+				38A3AE0D1CC45146006D5FE2 /* MainViewController.h */,
+				38A3AE0E1CC45146006D5FE2 /* MainViewController.m */,
+				381606A21E39862000AE0DD7 /* ImageViewOverlayController.h */,
+				381606A31E39862000AE0DD7 /* ImageViewOverlayController.m */,
+				381606A41E39862000AE0DD7 /* ImageViewOverlayController.xib */,
+				38A3AE131CC4648D006D5FE2 /* LoginViewController.h */,
+				38A3AE141CC4648D006D5FE2 /* LoginViewController.m */,
+				38A3AE2D1CC71D19006D5FE2 /* SelectSchoolViewController.h */,
+				38A3AE2E1CC71D19006D5FE2 /* SelectSchoolViewController.m */,
+				38A3AE161CC49196006D5FE2 /* SignUpViewController.h */,
+				38A3AE171CC49196006D5FE2 /* SignUpViewController.m */,
+				38E664711CD3FB7F00E330C6 /* ForgotPwdViewController.h */,
+				38E664721CD3FB7F00E330C6 /* ForgotPwdViewController.m */,
+				38A3AE191CC4F990006D5FE2 /* InputScheduleViewController.h */,
+				38A3AE1A1CC4F990006D5FE2 /* InputScheduleViewController.m */,
+				3829B7F11CE20B3000F21B41 /* ShowClassesViewController.h */,
+				3829B7F21CE20B3000F21B41 /* ShowClassesViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		38E862CE1CC16E35002976A4 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				3826CC081CFFE74E00A840A8 /* CustomTextView.h */,
+				3826CC091CFFE74E00A840A8 /* CustomTextView.m */,
+				3826CBFC1CFFDE8D00A840A8 /* MyLocationTracker.h */,
+				3826CBFD1CFFDE8D00A840A8 /* MyLocationTracker.m */,
+				38A3AE271CC54EE4006D5FE2 /* ImageCacheHelper.h */,
+				38A3AE281CC54EE4006D5FE2 /* ImageCacheHelper.m */,
+				3835127F1DA5F835009894D4 /* UIImage+Scale.h */,
+				383512801DA5F835009894D4 /* UIImage+Scale.m */,
+				383512851DA7452D009894D4 /* UIImageView+Networking.h */,
+				383512861DA7452D009894D4 /* UIImageView+Networking.m */,
+				38A3AE261CC54DB8006D5FE2 /* MyAppConstants.h */,
+				38A3AE101CC46320006D5FE2 /* GeneralHelper.h */,
+				38A3AE111CC46320006D5FE2 /* GeneralHelper.m */,
+				38A3AE1F1CC54D22006D5FE2 /* BackendHelper.h */,
+				38A3AE201CC54D22006D5FE2 /* BackendHelper.m */,
+				385DB8C81DB85648002BD5D9 /* SubjectColorView.h */,
+				385DB8C91DB85648002BD5D9 /* SubjectColorView.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		95E7D75ECDC8F15371A08161 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38DC815E1D13B63200DD8D8F /* SafariServices.framework */,
+				943965EE08B757448EF2A8EA /* libPods-StudyNow.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38E862AE1CC16E01002976A4 /* StudyNow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38E862C91CC16E01002976A4 /* Build configuration list for PBXNativeTarget "StudyNow" */;
+			buildPhases = (
+				1EA223DB2954512A870FC9EE /* [CP] Check Pods Manifest.lock */,
+				38E862AB1CC16E01002976A4 /* Sources */,
+				38E862AC1CC16E01002976A4 /* Frameworks */,
+				38E862AD1CC16E01002976A4 /* Resources */,
+				EE4B273CE3F706A78EE6CD1E /* [CP] Embed Pods Frameworks */,
+				B28BA2FF33DBAA3B34F7AEB1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StudyNow;
+			productName = StudyNow;
+			productReference = 38E862AF1CC16E01002976A4 /* StudyNow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38E862A71CC16E01002976A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = StudyNow;
+				TargetAttributes = {
+					38E862AE1CC16E01002976A4 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 7K29EHR899;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 38E862AA1CC16E01002976A4 /* Build configuration list for PBXProject "StudyNow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38E862A61CC16E01002976A4;
+			productRefGroup = 38E862B01CC16E01002976A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38E862AE1CC16E01002976A4 /* StudyNow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38E862AD1CC16E01002976A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3829B8391CED6AEB00F21B41 /* Check_64.png in Resources */,
+				383512751DA497AF009894D4 /* Localizable.strings in Resources */,
+				3829B8151CE4ACCB00F21B41 /* drcolorpicker-brightnessguide@2x.png in Resources */,
+				38A3AE1E1CC4F9B4006D5FE2 /* Study.storyboard in Resources */,
+				3829B8141CE4ACCB00F21B41 /* drcolorpicker-brightnessguide.png in Resources */,
+				38A3AE311CC71E88006D5FE2 /* grayline.png in Resources */,
+				38E862C51CC16E01002976A4 /* LaunchScreen.storyboard in Resources */,
+				38E862C21CC16E01002976A4 /* Assets.xcassets in Resources */,
+				3864D3931D6179B0004EF9C1 /* Icon-167.png in Resources */,
+				38E862BD1CC16E01002976A4 /* Main.storyboard in Resources */,
+				381606A61E39862000AE0DD7 /* ImageViewOverlayController.xib in Resources */,
+				3829B8111CE4AC3000F21B41 /* drcolorpicker-color-bar@2x.png in Resources */,
+				3829B8101CE4AC3000F21B41 /* drcolorpicker-color-bar.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EA223DB2954512A870FC9EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B28BA2FF33DBAA3B34F7AEB1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StudyNow/Pods-StudyNow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE4B273CE3F706A78EE6CD1E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StudyNow/Pods-StudyNow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38E862AB1CC16E01002976A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3829B8191CE544DB00F21B41 /* StudentDetail.m in Sources */,
+				38A3AE2F1CC71D19006D5FE2 /* SelectSchoolViewController.m in Sources */,
+				38A3AE1B1CC4F990006D5FE2 /* InputScheduleViewController.m in Sources */,
+				3829B8071CE435C500F21B41 /* BaseTabViewController.m in Sources */,
+				383512871DA7452D009894D4 /* UIImageView+Networking.m in Sources */,
+				3829B7F01CE20AE900F21B41 /* InputScheduleViewCell.m in Sources */,
+				3829B80D1CE49B4B00F21B41 /* ProfileViewController.m in Sources */,
+				381606A51E39862000AE0DD7 /* ImageViewOverlayController.m in Sources */,
+				383512811DA5F835009894D4 /* UIImage+Scale.m in Sources */,
+				388E984A1CFE01BB000A57C2 /* ChatData.m in Sources */,
+				385DB8CA1DB85648002BD5D9 /* SubjectColorView.m in Sources */,
+				38A3AE381CC72DF4006D5FE2 /* Student.m in Sources */,
+				3829B7F31CE20B3000F21B41 /* ShowClassesViewController.m in Sources */,
+				3829B81C1CE5795400F21B41 /* Subject.m in Sources */,
+				38A3AE151CC4648D006D5FE2 /* LoginViewController.m in Sources */,
+				3829B8221CE6DBE400F21B41 /* SettingsViewController.m in Sources */,
+				3835127B1DA4A841009894D4 /* CreateGroupViewController.m in Sources */,
+				38E862BA1CC16E01002976A4 /* ViewController.m in Sources */,
+				3829B81F1CE60B1F00F21B41 /* UserListViewCell.m in Sources */,
+				38A3AE0F1CC45146006D5FE2 /* MainViewController.m in Sources */,
+				38E862B71CC16E01002976A4 /* AppDelegate.m in Sources */,
+				38A3AE211CC54D22006D5FE2 /* BackendHelper.m in Sources */,
+				3835127E1DA5E421009894D4 /* GroupChat.m in Sources */,
+				3826CC011CFFE0DC00A840A8 /* DeviceUserMap.m in Sources */,
+				388E98441CFE018D000A57C2 /* ChatFriendViewCell.m in Sources */,
+				388E98411CFE0176000A57C2 /* MessageListViewCell.m in Sources */,
+				38E862C01CC16E01002976A4 /* StudyNow.xcdatamodeld in Sources */,
+				3826CC0A1CFFE74E00A840A8 /* CustomTextView.m in Sources */,
+				38E862B41CC16E01002976A4 /* main.m in Sources */,
+				3835128D1DA7CCEE009894D4 /* GroupChatMessages.m in Sources */,
+				38A3AE291CC54EE4006D5FE2 /* ImageCacheHelper.m in Sources */,
+				3835128A1DA74A3B009894D4 /* GroupChatViewController.m in Sources */,
+				3829B8001CE3F80700F21B41 /* HomeListViewController.m in Sources */,
+				383512841DA669A9009894D4 /* GroupListViewCell.m in Sources */,
+				3829B7F61CE21D7000F21B41 /* MyClasses.m in Sources */,
+				38A3AE0C1CC45134006D5FE2 /* StartupViewController.m in Sources */,
+				3826CC071CFFE72E00A840A8 /* ChatViewController.m in Sources */,
+				3826CBFE1CFFDE8D00A840A8 /* MyLocationTracker.m in Sources */,
+				38A3AE121CC46320006D5FE2 /* GeneralHelper.m in Sources */,
+				388E98471CFE01B0000A57C2 /* LastChat.m in Sources */,
+				3829B80A1CE49B3300F21B41 /* ChatsViewController.m in Sources */,
+				38A3AE2C1CC646BB006D5FE2 /* Schools.m in Sources */,
+				38A3AE251CC54D5E006D5FE2 /* UserData.m in Sources */,
+				38A3AE181CC49196006D5FE2 /* SignUpViewController.m in Sources */,
+				3885DD9E1E0E3D5300759FF0 /* GroupDetailViewController.m in Sources */,
+				38A3AE351CC72BB6006D5FE2 /* MBProgressHUD.m in Sources */,
+				38E664731CD3FB7F00E330C6 /* ForgotPwdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		383512771DA497AF009894D4 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				383512761DA497AF009894D4 /* Base */,
+				383512781DA497EA009894D4 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		38A3AE1C1CC4F9B4006D5FE2 /* Study.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38A3AE1D1CC4F9B4006D5FE2 /* Base */,
+			);
+			name = Study.storyboard;
+			sourceTree = "<group>";
+		};
+		38E862BB1CC16E01002976A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38E862BC1CC16E01002976A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38E862C31CC16E01002976A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38E862C41CC16E01002976A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38E862C71CC16E01002976A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38E862C81CC16E01002976A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38E862CA1CC16E01002976A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3C40D39B00D887364469255 /* Pods-StudyNow.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = StudyNow/StudyNow.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Gefen Laredo (76G925L8Q4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Gefen Laredo (76G925L8Q4)";
+				DEVELOPMENT_TEAM = 7K29EHR899;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = StudyNow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.StudyNow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dd40b468-a118-4465-b9ed-271568d42a75";
+				PROVISIONING_PROFILE_SPECIFIER = "StudyNow Dev";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38E862CB1CC16E01002976A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B013561F378B1DCACE6B1CF9 /* Pods-StudyNow.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = StudyNow/StudyNow.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Gefen Laredo (7K29EHR899)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Gefen Laredo (7K29EHR899)";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = StudyNow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.StudyNow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0353564e-fab9-41a2-a9ce-2422eb15de2e";
+				PROVISIONING_PROFILE_SPECIFIER = "StudyNow Dist";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38E862AA1CC16E01002976A4 /* Build configuration list for PBXProject "StudyNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E862C71CC16E01002976A4 /* Debug */,
+				38E862C81CC16E01002976A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38E862C91CC16E01002976A4 /* Build configuration list for PBXNativeTarget "StudyNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E862CA1CC16E01002976A4 /* Debug */,
+				38E862CB1CC16E01002976A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		38E862BE1CC16E01002976A4 /* StudyNow.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				38E862BF1CC16E01002976A4 /* StudyNow.xcdatamodel */,
+			);
+			currentVersion = 38E862BF1CC16E01002976A4 /* StudyNow.xcdatamodel */;
+			path = StudyNow.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 38E862A71CC16E01002976A4 /* Project object */;
+}
